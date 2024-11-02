@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cadastro</h2>
+    <form>
+        <div>
+            <label for="fname"><strong>Nome:</strong></label>
+            <input type="text" id="fname" name="fname"><br><br>
+        
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" autocomplete="on">
+        
+            <label for="pwd"><strong>- Senha:</strong></label>
+            <input type="password" id="pwd" name="pwd"><br><br>
+        </div>
+
+        <div>
+            <label for="datemax"><strong>Data de Nascimento:</strong></label>
+            <input type="date" id="datemax" name="datemax">
+        
+            <label for="files"><strong>- Foto:</strong></label>
+            <input type="file" id="files" name="files"><br><br>
+        </div>
+
+        <div>
+            <label for="cars"><strong>Nascionalidade:</strong></label>
+            <select id="cars" name="cars">
+                <option value="volvo">Brasileiro</option>
+                <option value="saab">Russo</option>
+                <option value="fiat">Frances</option>
+                <option value="audi">Alemão</option>
+            </select>
+        
+            <label for="datemax"><strong>- Genero:</strong></label>
+            <label for="datemax">F</label>
+            <input type="radio" id="datemax" name="datemax">
+            <label for="datemax">M</label>
+            <input type="radio" id="datemax" name="datemax"><br><br>
+        </div>
+
+        <div>
+            <strong>Suas principais qualidades:</strong><br>
+            <label for="vehicle1"> Inteligência</label>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">|
+            <label for="vehicle2"> Resiliência</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">|
+            <label for="vehicle3"> Preparo Físico</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">|
+            <label for="vehicle4"> Educação </label>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="boat"><br><br>
+        </div>
+        
+        <div>
+            <textarea name="message" rows="12" cols="35" placeholder="Porque você gostaria de ser um austrounauta?"></textarea><br><br>
+        </div>
+
+        <div>
+            <input type="submit" value="Criar">
+        </div>
+</body>
+</html>
